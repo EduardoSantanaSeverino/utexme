@@ -1,0 +1,64 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+.pagination{
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+}
+.anchoOpciones{
+	/*	width: 10px;*/
+}
+.imagen-fondo{
+	width: 100%;
+	background-repeat: no-repeat;
+}
+.jtable-child-table-container {
+	margin-left: 25px !important;
+	border-left: 1px solid #ddd;
+}
+#PreguntasTableContainer{
+	margin-bottom: 15px;
+}
+.bs-callout-info {
+	border-left-color: #1b809e !important;
+}
+.bs-callout-warning {
+	border-left-color: #aa6708 !important;
+}
+.bs-callout-info h4, .panel-info h4 {
+	color: #1b809e;
+}
+.bs-callout-warning h4, .panel-warning h4, .panel-danger h4 {
+	color: #aa6708;
+}
+.bs-callout {
+	padding: 20px;
+	margin-bottom: 10px;
+	border: 1px solid #eee;
+	border-left-width: 5px;
+	border-radius: 3px;
+}
+.boton-nuevo-custom {
+    float: right !important;
+    margin-top: -8px;
+}
+div.dash-panel{
+	/*margin-bottom: -10px;*/
+}
+/*!
+* IE10 viewport hack for Surface/desktop Windows 8 bug
+* Copyright 2014-2015 Twitter, Inc.
+* Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+*/
+
+/*
+* See the Getting Started docs for more information:
+* http://getbootstrap.com/getting-started/#support-ie10-width
+*/
+@-webkit-viewport { width: device-width; }
+@-moz-viewport    { width: device-width; }
+@-ms-viewport     { width: device-width; }
+@-o-viewport      { width: device-width; }
+@viewport         { width: device-width; }

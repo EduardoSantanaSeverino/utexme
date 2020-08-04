@@ -1,0 +1,10 @@
+version: '2.1'
+services:
+  web:
+    image: wimtach2020/alphaglobalitservice
+    restart: always
+    ports:
+      - "8080:8080"
+    environment:
+      - LOG_LEVEL=DEBUG
+      - TZ=America/Toronto

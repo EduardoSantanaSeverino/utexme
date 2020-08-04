@@ -1,0 +1,11 @@
+version: '3'
+
+volumes:
+  datafiles:
+  
+services:
+
+    angular:
+      image: wimtach2020/alphaglobalitangular
+      ports:
+        - "80:80"

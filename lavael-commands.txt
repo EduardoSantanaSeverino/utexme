@@ -1,0 +1,19 @@
+composer create-project laravel/laravel my_laravel_dir 4.2
+https://stackoverflow.com/questions/23754260/installing-specific-laravel-version-with-composer-create-project
+
+docker run -it -d -v "$HOME"/.m2:/root/.m2 --name $CONTAINER_NAME_TEST_API $CONTAINER_NAME_TEST_API bin/bash
+echo "------------------------------------------------------------------------"
+echo "Run Tests (docker exec $CONTAINER_NAME_TEST_API mvn test)"
+echo "------------------------------------------------------------------------"
+docker exec -e SERVER_BASE_URL=http://$CONTAINER_IP_API:8080 $CONTAINER_NAME_TEST_API mvn -Dtest=AllApiTest test
+./
+
+composer create-project laravel/laravel . 5.5
+
+
+docker-compose run --rm composer composer create-project laravel/laravel . 5.5
+docker-compose run --rm composer update
+
+https://dev.to/aschmelyun/the-beauty-of-docker-for-local-laravel-development-13c0
+
+https://stackoverflow.com/questions/44395822/error-class-html-not-found-laravel-5-4
